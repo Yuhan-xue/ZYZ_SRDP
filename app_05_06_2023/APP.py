@@ -102,9 +102,9 @@ iface = gr.Interface(
         gr.inputs.Textbox(label="时间 20200601~20200831",default='20200722'),
         gr.inputs.Slider(1, 30, 1,label="前后时间",default='3')
     ],
-    outputs=gr.outputs.Image(type="filepath", label="Developed by Han 25/05/2023"),
+    outputs=gr.outputs.Image(type="filepath", label="Developed by Han 05/06/2023"),
     layout="vertical",
     title=""
 )
 # 启动Gradio应用
-iface.launch(server_name="0.0.0.0",server_port=8080,)
+iface.launch(server_name="0.0.0.0",server_port=8082,)
