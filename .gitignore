@@ -3,3 +3,7 @@
 *.mat
 
 *.npy
+
+app_05_06_2023/figsave/*.png
+
+*.gif
